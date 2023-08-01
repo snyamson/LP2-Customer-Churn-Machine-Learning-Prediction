@@ -3,6 +3,8 @@
     "barmode",
     "BIVARIATE",
     "dtype",
+    "hyperparameters",
+    "Plotly",
     "ttest",
     "xaxis",
     "yaxis"
