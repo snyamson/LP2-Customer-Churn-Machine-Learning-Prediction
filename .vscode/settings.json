@@ -4,6 +4,7 @@
     "BIVARIATE",
     "dtype",
     "hyperparameters",
+    "interpretability",
     "Plotly",
     "ttest",
     "xaxis",
