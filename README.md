@@ -10,16 +10,16 @@ This project focuses on predicting customer churn within the Vodafone network se
 
 ## Key Links
 
-| Description                 | Link                                        |
-| --------------------------- | ------------------------------------------- |
-| Deployed Power BI Dashboard | [View Dashboard](https://your-powerbi-link) |
-| Published Article           | [Read Article](https://your-article-link)   |
+| Description                 | Link                                                                                                                                                                  |
+| --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Deployed Power BI Dashboard | [View Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOWE0MGNhMDgtMDdmYS00ZTVmLWJjY2MtNGRjNzVkZDlhMmM2IiwidCI6IjQ0ODdiNTJmLWYxMTgtNDgzMC1iNDlkLTNjMjk4Y2I3MTA3NSJ9) |
+| Published Article           | [Read Article](https://your-article-link)                                                                                                                             |
 
 ## Confusion Matrix and Metrics
 
-| Confusion Matrix                                  | Metrics          |
-| ------------------------------------------------- | ---------------- |
-| ![Confusion Matrix](/images/confusion_matrix.png) | Accuracy: 87.39% |
+| Confusion Matrix                                                                                                                                     | Metrics                                                                  |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![confusion_matrix](https://github.com/snyamson/LP2-Customer-Churn-Machine-Learning-Prediction/assets/58486437/edee65f0-39f3-4013-b337-c2a8e28fe0fb) | Accuracy: 87.39% <br> Precision: 86.8% <br> Recall: 87.8% <br> F1: 93.5% |
 
 ## Project Highlights
 
@@ -34,6 +34,7 @@ This project focuses on predicting customer churn within the Vodafone network se
 
 - `code/`: Contains the dataset used for analysis and the Jupyter notebook detailing the data exploration, preprocessing, and model building steps.
 - `article/`: Holds project-related article.
+- `customer churn analysis dashboard.pbix`: The file for the deployed Power BI dashboard.
 - `LICENSE`: Project license.
 - `README.md`: Project overview, links, highlights, and information.
 
