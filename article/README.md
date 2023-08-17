@@ -85,13 +85,65 @@ Your EDA content goes here...
 
 ## Data Quality Assessment
 
-Your data quality assessment content goes here...
+Following data gathering from various sources, a comprehensive assessment was conducted to evaluate quality issues both visually and programmatically.
+
+During the preliminary dataset exploration, several data quality issues were identified, and they are summarized below:
+
+
+1. Accuracy:
+   - Most of the categorical columns in the first DataFrame use True to represent Yes and False to represent No, creating inconsistency among the three datasets.
+
+
+2. Validity:
+   - In the second and third datasets, the TotalCharges column is of object data type instead of float, which should contain numerical values.
+
+
+3. Consistency:
+   - Inconsistent values in the categorical columns across the three data sets.
+
+   
+4. Completeness:
+   - Missing data points in the Churn column (Target) and other columns in the first dataset.
+
 
 ---
 
 ## Hypothesis Testing
 
-Your hypothesis testing content goes here...
+**Null Hypothesis (H0)**
+
+The monthly subscription cost (MonthlyCharges) has no significant effect on customer churn (Churn) from the Vodafone network service.
+
+**Alternate Hypothesis (H1)**
+
+The monthly subscription cost (MonthlyCharges) has a significant effect on customer churn (Churn) from the Vodafone network service.
+
+
+**UNIVARIATE:**
+
+1. **Distribution of Churn:** What is the proportion of customers who have churned versus those who have not churned?
+
+2. **Distribution of Tenure:** How is the duration of customer subscriptions (tenure) distributed among all customers?
+
+3. **Distribution of Senior Citizen Status:** What is the distribution of senior citizen status among all customers?
+
+**BIVARIATE:**
+
+4. **Distribution of Monthly Charges across Churn:** How does the monthly charges vary between customers who have churned and those who have not?
+
+5. **Relationship between Churn and Customer Tenure:** Is there a correlation between customer tenure and the likelihood of churning?
+
+6. **Distribution of Churn across Contract Types:** How does the proportion of churn vary across different contract types (month-to-month, one year, two-year)?
+
+7. **Impact of Online Security Service on Churn:** Does the presence or absence of online security service influence customer churn rates?
+
+8. **Impact of Online Backup Service on Churn:** How does the presence or absence of online backup service affect customer churn rates?
+
+**MULTIVARIATE:**
+
+9. **Impact of Internet Service Type on Monthly Charges and Churn:** How does the type of internet service (DSL, Fiber Optic, None) influence monthly charges and customer churn? Are Fiber Optic customers paying significantly higher charges compared to DSL customers, and does this affect their likelihood of churning?
+
+
 
 ---
 
