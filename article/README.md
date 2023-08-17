@@ -67,7 +67,15 @@ from sklearn.metrics import classification_report, confusion_matrix
 from imblearn.over_sampling import SMOTE
 
 # Data Loading
+In this project, I navigate through a dataset dispersed across three distinct sources, harnessing each for valuable insights.
 
+The initial segment, spanning the first 3000 records, resides within a remote database. I access this data remotely using the pyodc library.
+
+The second 2000 records await in OneDrive, with the name "Telco-churn-second-2000.xlsx." This file serves as our test dataset, an essential piece in evaluating our analysis.
+
+Lastly, the GitHub repository houses the final component – "LP2_Telco-churn-last-2000.csv."
+
+![lp2 Data Loading](https://github.com/snyamson/LP2-Customer-Churn-Machine-Learning-Prediction/assets/58486437/2f197ab3-2c38-42fc-8862-f08e7cc09c33)
 
 # EDA (Exploratory Data Analysis)
 
