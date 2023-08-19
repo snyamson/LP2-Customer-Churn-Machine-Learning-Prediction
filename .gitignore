@@ -1,3 +1,4 @@
 /.env
 /.vscode/*
 confusion_matrix.png
+/images/*
