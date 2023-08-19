@@ -9,6 +9,7 @@ This project follows the CRISP-DM (Cross-Industry Standard Process for Data Mini
 ## 📑 Table of Contents
 - [Project Overview](#project-overview)
 - [Project Structure](#project-structure)
+- [Data Dictionary](#data-dictionary)
 - [Project Highlights](#project-highlights)
 - [Summary](#summary)
 - [Hypothesis Investigated](#hypothesis-investigated)
@@ -17,6 +18,7 @@ This project follows the CRISP-DM (Cross-Industry Standard Process for Data Mini
 - [Model Selection](#model-selection)
 - [Model Evaluation (Confusion Matrix)](#model-evaluation-confusion-matrix)
 - [Classification Metrics Score](#classification-metrics-score)
+- [Recommendations](#recommendations)
 - [Getting Started](#getting-started)
 - [License](#license)
 - [Author](#author)
@@ -28,6 +30,31 @@ This project follows the CRISP-DM (Cross-Industry Standard Process for Data Mini
 - `customer churn analysis dashboard.pbix`: The file for the deployed Power BI dashboard.
 - `LICENSE`: Project license.
 - `README.md`: Project overview, links, highlights, and information.
+
+## Data Dictionary
+  | Field           | Description                                                          |
+|-----------------|----------------------------------------------------------------------|
+| Gender          | Whether the customer is a male or a female                          |
+| SeniorCitizen   | Whether a customer is a senior citizen or not                       |
+| Partner         | Whether the customer has a partner or not (Yes, No)                 |
+| Dependents      | Whether the customer has dependents or not (Yes, No)                |
+| Tenure          | Number of months the customer has stayed with the company           |
+| Phone Service   | Whether the customer has a phone service or not (Yes, No)           |
+| MultipleLines   | Whether the customer has multiple lines or not                      |
+| InternetService | Customer's internet service provider (DSL, Fiber Optic, No)        |
+| OnlineSecurity  | Whether the customer has online security or not (Yes, No, No Internet) |
+| OnlineBackup    | Whether the customer has online backup or not (Yes, No, No Internet) |
+| DeviceProtection| Whether the customer has device protection or not (Yes, No, No internet service) |
+| TechSupport     | Whether the customer has tech support or not (Yes, No, No internet) |
+| StreamingTV     | Whether the customer has streaming TV or not (Yes, No, No internet service) |
+| StreamingMovies | Whether the customer has streaming movies or not (Yes, No, No Internet service) |
+| Contract        | The contract term of the customer (Month-to-Month, One year, Two year) |
+| PaperlessBilling| Whether the customer has paperless billing or not (Yes, No)        |
+| Payment Method  | The customer's payment method (Electronic check, mailed check, Bank transfer(automatic), Credit card(automatic)) |
+| MonthlyCharges  | The amount charged to the customer monthly                         |
+| TotalCharges    | The total amount charged to the customer                            |
+| Churn           | Whether the customer churned or not (Yes or No)                     |
+
 
 #  Project Highlights🚀
 
@@ -83,6 +110,20 @@ The `Random Forest Classifier` stands out as the best-performing model due to it
 | Precision | 86.8% |
 | Recall | 87.8% |
 | F1 | 93.5% |
+
+## Recommendations
+
+1. **Tailor Pricing Strategies:** The analysis reveals that higher monthly charges are associated with an increased likelihood of customer churn. To enhance customer retention, Vodafone can explore competitive pricing strategies that balance revenue generation with customer satisfaction, ensuring that the cost aligns with the value perceived by customers.
+
+2. **Enhance Early Customer Experience:** Early months of customer tenure exhibit a higher churn rate, suggesting that customer experience in the initial stages is vital. Focusing on improving onboarding processes, service quality, and addressing customer concerns during this crucial period can enhance customer satisfaction and loyalty.
+
+3. **Promote Long-Term Contracts:** The analysis indicates that customers with month-to-month contracts have a significantly higher churn rate compared to those with one-year or two-year contracts. Encouraging customers to opt for longer-term contracts through incentives and benefits can potentially reduce churn rates and foster customer commitment.
+
+4. **Leverage Additional Services:** The presence of Online Security and Online Backup services has shown to impact churn rates. Strategically promoting and enhancing these services can play a role in reducing churn rates by providing value-added features that address customer needs and concerns.
+
+5. **Monitor and Adjust Fiber Optic Offering:** Given the higher monthly charges and elevated churn rate among Fiber Optic customers, closely monitor customer satisfaction and service quality for this group. Continuously fine-tune offerings and support to ensure that the premium cost of Fiber Optic service aligns with customer expectations.
+
+6. **Personalized Customer Engagement:** Utilize customer insights from the churn analysis to develop personalized engagement strategies. Tailored communication, offers, and targeted marketing campaigns based on customer tenure, contract type, and service preferences can enhance customer loyalty and mitigate churn.
 
 ##  Getting Started🏁
 
