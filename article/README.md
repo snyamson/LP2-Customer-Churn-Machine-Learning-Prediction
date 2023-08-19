@@ -1,4 +1,5 @@
 ![diversity-people-digital-device-communication-concept](https://github.com/snyamson/LP2-Customer-Churn-Machine-Learning-Prediction/assets/58486437/572bb419-d562-494b-add2-4d0c4aaaf1c7)
+<<<<<<< HEAD
 
 # Unlocking Insights: Decoding Telecommunication Customer Churn Through Machine Learning
 
@@ -11,11 +12,25 @@ Our aim is to leverage data-driven insights to identify key factors influencing 
 # Business Understanding
 
 In the dynamic and ever-evolving landscape of the telecommunications industry, customer churn has become a critical challenge for service providers. The ability to predict and understand customer churn can significantly impact business success, customer retention strategies, and ultimately, the bottom line.
+=======
+# Unlocking Insights: Decoding Telecommunication Customer Churn Through Machine Learning
+
+# Introduction
+In the dynamic and ever-evolving landscape of the telecommunications industry, customer churn has become a critical challenge for service providers. The ability to predict and understand customer churn can significantly impact business success, customer retention strategies, and ultimately, the bottom line. 
+In this project, we embark on an exciting journey to explore and analyze customer churn within the Vodafone network service using the CRISP-DM (Cross-Industry Standard Process for Data Mining) framework. 
+Our aim is to leverage data-driven insights to identify key factors influencing churn, build predictive models, and develop actionable recommendations that can help Vodafone proactively retain valuable customers and enhance their overall service offerings.
+
+# Business Understanding
+In the dynamic and ever-evolving landscape of the telecommunications industry, customer churn has become a critical challenge for service providers. The ability to predict and understand customer churn can significantly impact business success, customer retention strategies, and ultimately, the bottom line. 
+>>>>>>> 4424420fea2b2ea8b19809369883f5c5ab801226
 
 In this project, we embark on an exciting journey to explore and analyze customer churn within the Vodafone network service using the CRISP-DM (Cross-Industry Standard Process for Data Mining) framework. Our aim is to leverage data-driven insights to identify key factors influencing churn, build predictive models, and develop actionable recommendations that can help Vodafone proactively retain valuable customers and enhance their overall service offerings.
 
 # Project Structure
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4424420fea2b2ea8b19809369883f5c5ab801226
 - [Importation](#importation)
 - [EDA (Exploratory Data Analysis)](#eda-exploratory-data-analysis)
 - [Data Quality Assessment](#data-quality-assessment)
@@ -26,7 +41,10 @@ In this project, we embark on an exciting journey to explore and analyze custome
 - [Conclusion](#conclusion)
 
 # Importation
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4424420fea2b2ea8b19809369883f5c5ab801226
 Import necessary libraries
 
 import pyodbc
@@ -72,7 +90,10 @@ from sklearn.metrics import classification_report, confusion_matrix
 from imblearn.over_sampling import SMOTE
 
 # Data Loading
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4424420fea2b2ea8b19809369883f5c5ab801226
 In this project, I navigate through a dataset dispersed across three distinct sources, harnessing each for valuable insights.
 
 The initial segment, spanning the first 3000 records, resides within a remote database. I access this data remotely using the pyodc library.
@@ -95,6 +116,7 @@ Following data gathering from various sources, a comprehensive assessment was co
 
 During the preliminary dataset exploration, several data quality issues were identified, and they are summarized below:
 
+<<<<<<< HEAD
 1. Accuracy:
 
    - Most of the categorical columns in the first DataFrame use True to represent Yes and False to represent No, creating inconsistency among the three datasets.
@@ -108,6 +130,25 @@ During the preliminary dataset exploration, several data quality issues were ide
 4. Completeness:
    - Missing data points in the Churn column (Target) and other columns in the first dataset.
 
+=======
+
+1. Accuracy:
+   - Most of the categorical columns in the first DataFrame use True to represent Yes and False to represent No, creating inconsistency among the three datasets.
+
+
+2. Validity:
+   - In the second and third datasets, the TotalCharges column is of object data type instead of float, which should contain numerical values.
+
+
+3. Consistency:
+   - Inconsistent values in the categorical columns across the three data sets.
+
+   
+4. Completeness:
+   - Missing data points in the Churn column (Target) and other columns in the first dataset.
+
+
+>>>>>>> 4424420fea2b2ea8b19809369883f5c5ab801226
 ---
 
 ## Hypothesis Testing
@@ -120,6 +161,10 @@ The monthly subscription cost (MonthlyCharges) has no significant effect on cust
 
 The monthly subscription cost (MonthlyCharges) has a significant effect on customer churn (Churn) from the Vodafone network service.
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4424420fea2b2ea8b19809369883f5c5ab801226
 **UNIVARIATE:**
 
 1. **Distribution of Churn:** What is the proportion of customers who have churned versus those who have not churned?
@@ -144,6 +189,11 @@ The monthly subscription cost (MonthlyCharges) has a significant effect on custo
 
 9. **Impact of Internet Service Type on Monthly Charges and Churn:** How does the type of internet service (DSL, Fiber Optic, None) influence monthly charges and customer churn? Are Fiber Optic customers paying significantly higher charges compared to DSL customers, and does this affect their likelihood of churning?
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 4424420fea2b2ea8b19809369883f5c5ab801226
 ---
 
 ## Feature Engineering
@@ -171,3 +221,8 @@ Your conclusion content goes here...
 ## Conclusion {#conclusion}
 
 Your conclusion content goes here...
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 4424420fea2b2ea8b19809369883f5c5ab801226
