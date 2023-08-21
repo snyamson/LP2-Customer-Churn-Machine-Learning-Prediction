@@ -1,6 +1,8 @@
 # 💼 Customer Churn Classification Prediction Project
 
-![customer-churn-image](https://github.com/snyamson/LP2-Customer-Churn-Machine-Learning-Prediction/assets/58486437/5b18de22-53a4-4cee-a858-129b75ceb137)
+
+![article head image](https://github.com/snyamson/LP2-Customer-Churn-Machine-Learning-Prediction/assets/58486437/e7431285-8c21-4c3c-9340-60fe57f7bc3f)
+
 In the dynamic and ever-evolving landscape of the telecommunications industry, customer churn has become a critical challenge for service providers. The ability to predict and understand customer churn can significantly impact business success, customer retention strategies and increase customer service satisfaction.
 
 ## Project Overview
@@ -70,7 +72,7 @@ This project follows the CRISP-DM (Cross-Industry Standard Process for Data Mini
 
 | Code | Name                                     |             Published Article             |                                                                                                                                                          Deployed Dashboard |
 | ---- | ---------------------------------------- | :---------------------------------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| LP 2 | Customer Churn Classification Prediction | [Read Article](https://your-article-link) | [View Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOWE0MGNhMDgtMDdmYS00ZTVmLWJjY2MtNGRjNzVkZDlhMmM2IiwidCI6IjQ0ODdiNTJmLWYxMTgtNDgzMC1iNDlkLTNjMjk4Y2I3MTA3NSJ9) |
+| LP 2 | Customer Churn Classification Prediction | [Read Article](https://www.linkedin.com/pulse/unlocking-insights-decoding-telecommunication-churn-solomon) | [View Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOWE0MGNhMDgtMDdmYS00ZTVmLWJjY2MtNGRjNzVkZDlhMmM2IiwidCI6IjQ0ODdiNTJmLWYxMTgtNDgzMC1iNDlkLTNjMjk4Y2I3MTA3NSJ9) |
 
 ## Hypothesis Investigated
 
